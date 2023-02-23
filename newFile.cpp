@@ -61,7 +61,7 @@ int main()
 		ll k=getRandInRange({1,100});
 		cout<<n<<" "<<m<<" "<<k<<"\n";
 		vector<int>a;
-		for(int i=0;i<n;i++)
+		for(int i=0;i<n;i++)         
 		{
 			int x=getRandInRange({0,1});
 			a.push_back(x);
